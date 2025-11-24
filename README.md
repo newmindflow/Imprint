@@ -17,10 +17,12 @@ For physical creators (artisans, sculptors, leatherworkers, bespoke furniture ma
 
 ## 🛠 The Workflow
 
+<img width="2816" height="1536" alt="Imprint Architecture Diagram" src="https://github.com/user-attachments/assets/7cf747be-a797-4386-b129-715a282b07ee" />
+
 Imprint changes the order of operations to suit physical production flows:
 
 1.  **Generate & Print:** The app generates a unique QR code linked to a pre-reserved asset ID. The user prints this instantly on a portable bluetooth label printer.
-2.  **Attach & Capture:** The label is adhered to the object. The user photographs the object using the app, capturing the item *with* its tag in the same frame.
+2.  **Attach & Capture:** The label is adhered to the object, or inside the packaging. The user photographs the object using the app, capturing the item *with* its tag in the same frame.
 3.  **Enrich Metadata:** The user inputs the custom metadata (title, materials, dimensions, and description - the story behind the object,etc.) directly on their phone.
 4.  **Mint:** Using the NMKR SDK, the asset is minted on-chain.
 5.  **Verify:** Anyone can subsequently scan the QR code on the physical object to view its digital passport, proving authenticity and provenance.
